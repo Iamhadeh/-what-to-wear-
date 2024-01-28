@@ -1,0 +1,243 @@
+body {
+    background-color: rgb(97, 50, 50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+section {
+    width: 600px;
+}
+
+h1 {
+    color: greenyellow;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.three-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 110px;
+    width: 600px;
+    background-color: greenyellow;
+}
+
+.name {
+    width: 200px;
+    height: 25px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    color: black;
+    border-radius: 2px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(97, 50, 50);
+    border: 1px solid greenyellow;
+    cursor: pointer;
+    box-shadow: 2px 4px black;
+    }
+
+#designed-by {
+    font-size: 10px;
+    color: black;
+    padding-left: 7px;
+}
+
+#name {
+    font: 8px;
+    color: white;
+    transition: all 0.3 ease;
+    &:hover {
+        background-color: black;
+        color: greenyellow;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.mainpic {
+    height: 80px;
+    width: 80px;
+    border: 7px rgb(97, 50, 50) solid;
+    background-color: black;
+}
+
+.changing-pic {
+    height: 300px;
+    width: 250px;
+    border: 10px rgb(97, 50, 50) solid;
+    box-shadow: 3px 6px black;
+}
+
+#changing-pic {
+    height: 300px;
+    width: 250px;
+}
+
+.container {
+    height: 400px;
+    width: 600px;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.btn {
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(97, 50, 50);
+    border: 2px solid black;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 2px 4px black;
+    transition: all 0.3 ease;
+    &:hover {
+        background-color: black;
+        color: greenyellow;
+    }
+}
+
+footer {
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    height: 40px;
+    width: 280px;
+    padding: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: greenyellow;
+}
+
+/* first breakpoint */
+
+
+@media screen and (max-width: 599px) {
+
+    body {
+        padding-top: 25px;
+    }
+    
+section {
+    width: 300px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 0.99rem;
+    text-align: center;
+}
+.three-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 110px;
+    width: 300px;
+    background-color: greenyellow;
+}
+
+.mainpic {
+    height: 75px;
+    width: 75px;
+    border: 7px rgb(97, 50, 50) solid;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainpic > img {
+    width: 70px;
+    width: 75px;
+}
+
+.changing-pic {
+    height: 200px;
+    width: 200px;
+    border: 10px rgb(97, 50, 50) solid;
+    box-shadow: 3px 6px black;
+}
+
+#changing-pic {
+    height: 200px;
+    width: 200px;
+}
+
+
+.container {
+    height: 350px;
+    width: 300px;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.btn {
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(97, 50, 50);
+    border: 2px solid black;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 2px 4px black;
+    transition: all 0.3 ease;
+    &:hover {
+        background-color: black;
+        color: greenyellow;
+    }
+}
+}
+
