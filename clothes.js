@@ -19,7 +19,7 @@ button.addEventListener("click", function () {
     // changing the header that shows for pic number 47
     let hotPic = 47;
     if (randomNumber === hotPic) { 
-        document.querySelector("h3").innerHTML = "🌶️ A little bit sexy!"
+        document.querySelector(".mainTextHeading").innerHTML = "🌶️ A little bit sexy!"
     }
 
     else { 
@@ -44,7 +44,7 @@ randomPic2 = ("./MP" + randomNumber2 + ".png");
 mainPics2.setAttribute("src", randomPic2);
 
 
-// changing main pic 3
+// changing main pic 3 
 
 var mainPics3 = document.querySelectorAll ("#img1")[2];
 var randomNumber3 = (Math.floor(Math.random () * 4)+1);
@@ -74,6 +74,6 @@ if (randomNumber1 === randomNumber2) {
 }
 
 else if (randomNumber1 === randomNumber3) {
-    mainPics2.setAttribute("src", pic1);
-    mainPics3.setAttribute("src", pic4);
+    mainPics2.setAttribute("src", pic4);
+    mainPics3.setAttribute("src", pic5);
 }
